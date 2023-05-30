@@ -6,17 +6,29 @@
     text-decoration: none;
 }
 
+:root{
+    --white-color: #FFFFFF;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --light-background: #F4F4FD;
+    --hover-background: #404BBF;
+    --blue-text-color: #4D5AE5;
+}
+
 .body{
 font-family: 'Roboto', sans-serif;  
+color: var(--text-color);
+background-color: var(--white-color);
 }
 
 .logo{
-font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #4D5AE5;
 }
 
@@ -54,6 +66,10 @@ color: #434455;
     color:#404BBF ;   
 }
 
+.header-address{
+    font-style: normal
+}
+
 .hero-text{
 font-weight: 700;
 font-size: 56px;
@@ -72,7 +88,6 @@ background: #2E2F42;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 background: #4D5AE5;
@@ -90,12 +105,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-align-items: center;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: #4D5AE5;
 background: #F4F4FD;
 }
+
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
@@ -106,7 +121,7 @@ background: #F4F4FD;
 .suptitle{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -121,7 +136,7 @@ background: #F4F4FD;
 .index-portfolio-title{
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
@@ -161,6 +176,7 @@ background: #FFFFFF
 
 
 .footer-text{
+font-family: "Raleway", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
