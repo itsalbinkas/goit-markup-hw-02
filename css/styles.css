@@ -36,12 +36,22 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
+.menu-link:hover,
+.menu-link:focus{
+    color:#404BBF ;
+}
+
 .contact-inf{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.contact-inf:hover,
+.contact-inf:focus{
+    color:#404BBF ;   
 }
 
 .hero-text{
