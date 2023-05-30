@@ -15,7 +15,7 @@
     --blue-text-color: #4D5AE5;
 }
 
-.body{
+body{
 font-family: 'Roboto', sans-serif;  
 color: var(--text-color);
 background-color: var(--white-color);
